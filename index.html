@@ -1,30 +1,29 @@
-
 <!doctype html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>José García Chibarro</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">José García Chibarro</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <a class="navbar-brand me-auto" href="#">José García Chibarro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Trayectoria</a>
+                        <a class="nav-link" href="#">Trayectoria</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -33,7 +32,7 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Venecia</a></li>
-                            <li><a class="dropdown-item" href="#">Conquista América</a></li>
+                            <li><a class="dropdown-item" href="#">Conquista America</a></li>
                             <li><a class="dropdown-item" href="#">Mitología en el viaje</a></li>
                         </ul>
                     </li>
@@ -46,69 +45,105 @@
                             <li><a class="dropdown-item" href="#">Bronce</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dibujos
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Dibujo sobre papel</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dibujos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Biografía</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        <a class="nav-link" href="#">Biografías</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <header class="masthead">
-        <div class="row">
-            <div class="col-md-12 col-xxl-12">
-                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="assets/img/La_tempestad.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h2>La tempestad</h2>
-                                <p>Arte Visual</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/img/La_voz_del_amo.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h2>La voz del amo</h2>
-                                <p>Arte Visual</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+    
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active ">
+                <div class="bg-tempestad"></div>               
+                <div class="carousel-caption">
+                    <h5>Arte Visual</h5>
+                    <p>La tempestad</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-lavoz"></div> 
+                <div class="carousel-caption">
+                    <h5>Arte Visual</h5>
+                    <p>La voz del amo</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-bañistas"></div> 
+                <div class="carousel-caption">
+                    <h5>Arte Visual</h5>
+                    <p>Bañistas</p>
                 </div>
             </div>
         </div>
-
-    </header>
-
-
-
-
-
-
-
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>    
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <section class="p-5 section1">
+        <div class="container inner">
+            <div>
+                <h2 class="text-center py-2">Hola! Mi nombre es José García Chibarro</h2>
+                <p class="text-center">Soy pintor chileno. La primera lección de arte la recibí de mi padre, quien me enseñó a dibujar un perfil humano, un automóvil y un caballo, elementos que me permitieron iniciar mi viaje como “artista visual”, luego fue la guitarra y la escultura, ya que mi madre tomaba cursos y yo la acompañaba, metiendo las manos en la greda.</p>
+            </div>
+        </div>
+
+        <div class="section-title text-center mt-5">
+            <h3>════ Mi especialidad ════</h3>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-4 mb-2">
+                <div class="card">
+                    <div class="mi_especialidad_1 card-img-top" ></div>
+                    <div class="card-body text-center">
+                        <h5>La conquista de américa</h5>
+                        <p class="card-text">¿Quién descubrió a quién?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-2">
+                <div class="card" >
+                    <div class="mi_especialidad_2 card-img-top" ></div>
+                    <div class="card-body text-center">
+                      <h5>Venecia como parodia</h5>
+                      <p class="card-text">Seres anónimos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-2">
+                <div class="card">
+                    <div class="mi_especialidad_3 card-img-top" ></div>
+                    <div class="card-body text-center">
+                        <h5>La mitología en el viaje</h5>
+                        <p class="card-text">Sustancialidad del mito</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

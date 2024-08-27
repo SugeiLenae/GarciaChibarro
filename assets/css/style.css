@@ -1,0 +1,66 @@
+/*Banner*/
+.bg-tempestad{
+    background-image: url(../img/La_tempestad.jpg);
+    height: 840px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bg-lavoz{
+    background-image: url(../img/La_voz_del_amo.jpg);
+    height: 840px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bg-bañistas{
+    background-image: url(../img/Bañistas.jpg);
+    height: 840px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.section1{
+    background-color: #f9f9f9;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.mi_especialidad_1{
+    background-image: url(../img/Quien_descubrio_a_quien.jpg);
+    height: 700px;
+    width: auto;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+}
+
+.mi_especialidad_2{
+    background-image: url(../img/Venecia_como_parodia.jpg);
+    height: 700px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.mi_especialidad_3{
+    background-image: url(../img/La_mitologia_en_el_viaje.jpg);
+    height: 700px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
