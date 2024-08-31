@@ -10,92 +10,99 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-black navbar-dark fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand me-auto" href="#">José García Chibarro</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Biografías</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#IdPinturas">Pinturas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#IdEsculturas">Esculturas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#IdHabilidades">Habilidades</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-black navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand me-auto" href="#">José García Chibarro</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#IdInicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#IdBiografia">Biografías</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#IdPinturas">Pinturas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#IdEsculturas">Esculturas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#IdHabilidades">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#IdContacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-
-    <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+    <div class="row" id="IdInicio">
+        <div class="col-md-12 mt-5">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <div class="bg-tempestad"></div>
+                        <div class="carousel-caption">
+                            <h5>Arte Visual</h5>
+                            <p>La tempestad</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="bg-lavoz"></div>
+                        <div class="carousel-caption">
+                            <h5>Arte Visual</h5>
+                            <p>La voz del amo</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="bg-bañistas"></div>
+                        <div class="carousel-caption">
+                            <h5>Arte Visual</h5>
+                            <p>Bañistas</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Antes</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active ">
-                <div class="bg-tempestad"></div>
-                <div class="carousel-caption">
-                    <h5>Arte Visual</h5>
-                    <p>La tempestad</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="bg-lavoz"></div>
-                <div class="carousel-caption">
-                    <h5>Arte Visual</h5>
-                    <p>La voz del amo</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="bg-bañistas"></div>
-                <div class="carousel-caption">
-                    <h5>Arte Visual</h5>
-                    <p>Bañistas</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Antes</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-        </button>
     </div>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
 
-    <section class="section1 p-5">
+    <section class="section1 p-5" id="IdBiografia">
         <div class="row align-items-center">
             <div class="col-md-4">
-                <img src="assets/img/JoseGarciaChibarro.jpg" class="img-fluid" alt="Mario Kart">
+                <img src="assets/img/JoseGarciaChibarro.jpg" class="img-fluid">
             </div>
             <div class="col-md-8 p-3">
                 <h2 class="text-center py-2">¡Hola! Mi nombre es José García Chibarro</h2>
             </div>
         </div>
     </section>
-
 
     <section class="p-5">
         <div class="container inner">
@@ -167,7 +174,7 @@
     </section>
 
 
-    <section class="p-5" id="#IdEsculturas">
+    <section class="p-5" id="IdEsculturas">
         <div class="section-title text-center mb-5">
             <h3>══ Mis Esculturas ══</h3>
         </div>
@@ -200,46 +207,109 @@
         <div class="container px-4 py-5" id="hanging-icons">
             <h2 class="pb-2 border-bottom"><strong>Mis Habilidades</strong></h2>
             <div>
-                <p>La primera lección de arte la recibí de mi padre, quien me enseño a dibujar un perfil humano, un automóvil y un caballo, elementos que me permitieron iniciar mi viaje como “artista visual”, luego fue la guitarra y la escultura, ya que mi madre tomaba cursos y yo la acompañaba, metiendo las manos en la greda.</p>
+                <p>La primera lección de arte la recibí de mi padre, quien me enseño a dibujar un perfil humano, un
+                    automóvil y un caballo, elementos que me permitieron iniciar mi viaje como “artista visual”, luego
+                    fue la guitarra y la escultura, ya que mi madre tomaba cursos y yo la acompañaba, metiendo las manos
+                    en la greda.</p>
             </div>
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
                 <div class="col d-flex align-items-start">
                     <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-                        <img src="assets/icon/escultura.png" alt=""  width="50px" height="50px">
+                        <img src="assets/icon/escultura.png" alt="" width="50px" height="50px">
                     </div>
                     <div>
                         <h2>Escultor</h2>
+                        <p style="text-align: justify;">Desde niño explore en la tercera dimensión paralelamente al
+                            dibujo y la pintura, por lo que existe una estrecha relación entre estas disciplinas,
+                            representando muchas veces a los personajes en ambas técnicas, lo que me ha obligado, en el
+                            caso de la escultura, a recrear en 3D.</p>
                     </div>
                 </div>
                 <div class="col d-flex align-items-start">
                     <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-                        <img src="assets/icon/pintura.png" alt=""  width="50px" height="50px">
+                        <img src="assets/icon/pintura.png" alt="" width="50px" height="50px">
                     </div>
                     <div>
                         <h2>Pintor</h2>
-                        <p style="text-align: justify;">Un día recibí la invitación de un amigo pintor para ir a su taller, y en vez de ir a la universidad lo visite, y tuve mi primera experiencia con la pintura al óleo, fue una revelación para mi y los que ahí estaban, y volví a casa con la convicción de que podía pintar<p>
+                        <p style="text-align: justify;">Un día recibí la invitación de un amigo pintor para ir a su
+                            taller, y en vez de ir a la universidad lo visite, y tuve mi primera experiencia con la
+                            pintura al óleo, fue una revelación para mi y los que ahí estaban, y volví a casa con la
+                            convicción de que podía pintar
+                        <p>
                     </div>
                 </div>
                 <div class="col d-flex align-items-start">
                     <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-                        <img src="assets/icon/guitarra.png" alt=""  width="50px" height="50px">
+                        <img src="assets/icon/guitarra.png" alt="" width="50px" height="50px">
                     </div>
                     <div>
                         <h2>Músico</h2>
-                        <p style="text-align: justify;">Después de tres años en América, llegamos a Europa donde el folklore latino americano estaba en todo su apogeo, hicimos discos y giras organizadas por un manager y un productor.
+                        <p style="text-align: justify;">Después de tres años en América, llegamos a Europa donde el
+                            folklore latino americano estaba en todo su apogeo, hicimos discos y giras organizadas por
+                            un manager y un productor.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
 
+    <section class="container mb-3" id="IdContacto">
+        <form  class="IdForm">
+            <div class="row">
+                <h3 style="text-align: center;" class="mt-5">══ Contáctame ══</h3>
+                <div class="col-md-12">
+                    <div class="mb-3">
+                        <label class="form-label">Nombre completo</label>
+                        <input type="text" class="form-control" ID="FormNombre" placeholder="Nombre Completo" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Ingresa correo electrónico</label>
+                        <input type="email" class="form-control" ID="FormCorreo" placeholder="correo@correo.cl" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Comentario</label>
+                        <textarea class="form-control" rows="3" style="resize: none;"
+                            placeholder="Comentario" required ID="FormComentario"></textarea>
+                    </div>
+                </div>
 
+                <div class="col text-center mt-3">
+                    <button type="submit"class="btn btn-primary btn-lg btn-block justify-content-center">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </section>
 
+    <div class="section1">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+                <p class="col-md-6 mb-0 text-muted">© 2024 José García Chibarro</p>
+                <ul class="nav col-md-6 justify-content-end">
+                    <li class="nav-item"><a href="#IdInicio" class="nav-link px-2 text-muted">Inicio</a></li>
+                    <li class="nav-item"><a href="#IdBiografia" class="nav-link px-2 text-muted">Biografías</a></li>
+                    <li class="nav-item"><a href="#IdPinturas" class="nav-link px-2 text-muted">Pinturas</a></li>
+                    <li class="nav-item"><a href="#IdEsculturas" class="nav-link px-2 text-muted">Esculturas</a></li>
+                    <li class="nav-item"><a href="#IdHabilidades" class="nav-link px-2 text-muted">Habilidades</a></li>
+                    <li class="nav-item"><a href="#IdContacto" class="nav-link px-2 text-muted">Contacto</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
 
-   
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script>
+        $('.IdForm').on('submit', function(event){
+            
+            alert('¡Mensaje Enviado!');
+            $('#FormNombre').val('');
+            $('#FormCorreo').val('');
+            $('#FormComentario').val('');
+            event.preventDefault();
+        });
+    </script>
+
 </body>
 
 </html>

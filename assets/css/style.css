@@ -1,7 +1,8 @@
 /*Banner*/
+
 .bg-tempestad{
     background-image: url(../img/La_tempestad.jpg);
-    height: 840px;
+    height: 800px;
     width: auto;
     background-size: cover;
     background-position: center;
@@ -11,7 +12,7 @@
 
 .bg-lavoz{
     background-image: url(../img/La_voz_del_amo.jpg);
-    height: 840px;
+    height: 800px;
     width: auto;
     background-size: cover;
     background-position: center;
@@ -21,7 +22,7 @@
 
 .bg-bañistas{
     background-image: url(../img/Bañistas.jpg);
-    height: 840px;
+    height: 800px;
     width: auto;
     background-size: cover;
     background-position: center;
