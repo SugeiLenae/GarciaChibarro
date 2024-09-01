@@ -93,5 +93,14 @@
     justify-content: center;
 }
 
+.imagenbiografia{
+    background-image: url(../img/JoseGarciaChibarro.jpg);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+}
 
 
